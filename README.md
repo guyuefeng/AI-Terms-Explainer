@@ -25,7 +25,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/ai-terms-explainer.git
+git clone https://github.com/guyuefeng/ai-terms-explainer.git
 cd ai-terms-explainer
 
 # 安装依赖
@@ -314,10 +314,10 @@ chore: 构建或辅助工具更改
 
 ## 📞 支持
 
-- 📧 邮箱: your.email@example.com
-- 🐛 Bug报告: [GitHub Issues](https://github.com/yourusername/ai-terms-explainer/issues)
-- 💬 讨论: [GitHub Discussions](https://github.com/yourusername/ai-terms-explainer/discussions)
+- 📧 邮箱: guyuefengxue@gmail.com
+- 🐛 Bug报告: [GitHub Issues](https://github.com/guyuefeng/ai-terms-explainer/issues)
+- 💬 讨论: [GitHub Discussions](https://github.com/guyuefengxue/ai-terms-explainer/discussions)
 
 ---
 
-**Made with ❤️ by [Your Name]** 
+**Made with ❤️ by [guyuefeng]** 
