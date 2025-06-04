@@ -1,0 +1,80 @@
+{
+  "appName": {
+    "message": "AI Terms Explainer",
+    "description": "Extension name"
+  },
+  "appDescription": {
+    "message": "Explain AI terms in plain language",
+    "description": "Extension description"
+  },
+  "apiKeyPlaceholder": {
+    "message": "Enter your OpenAI API Key",
+    "description": "API Key input placeholder"
+  },
+  "termPlaceholder": {
+    "message": "Enter AI term to explain",
+    "description": "Term input placeholder"
+  },
+  "explainButton": {
+    "message": "Explain",
+    "description": "Explain button text"
+  },
+  "loading": {
+    "message": "Generating explanation...",
+    "description": "Loading state text"
+  },
+  "apiKeyMissing": {
+    "message": "Please enter API Key",
+    "description": "API Key missing error"
+  },
+  "termMissing": {
+    "message": "Please enter AI term",
+    "description": "Term missing error"
+  },
+  "apiError": {
+    "message": "API request failed: $ERROR$",
+    "description": "API error message",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Invalid API Key"
+      }
+    }
+  },
+  "networkError": {
+    "message": "Network connection failed, please check your network settings",
+    "description": "Network error message"
+  },
+  "unexpectedError": {
+    "message": "An unexpected error occurred, please try again later",
+    "description": "Unexpected error message"
+  },
+  "requestTimeout": {
+    "message": "Request timeout, please try again later",
+    "description": "Request timeout message"
+  },
+  "invalidApiKey": {
+    "message": "Invalid API Key format",
+    "description": "Invalid API Key format error"
+  },
+  "clearHistory": {
+    "message": "Clear History",
+    "description": "Clear history button text"
+  },
+  "settings": {
+    "message": "Settings",
+    "description": "Settings button text"
+  },
+  "about": {
+    "message": "About",
+    "description": "About button text"
+  },
+  "explainSelection": {
+    "message": "Explain selected AI term",
+    "description": "Command description for explaining selected text"
+  },
+  "openFullscreen": {
+    "message": "Open fullscreen mode",
+    "description": "Command description for opening fullscreen mode"
+  }
+} 

@@ -1,0 +1,80 @@
+{
+  "appName": {
+    "message": "讲人话AI",
+    "description": "扩展程序名称"
+  },
+  "appDescription": {
+    "message": "用通俗易懂的方式解释AI术语",
+    "description": "扩展程序描述"
+  },
+  "apiKeyPlaceholder": {
+    "message": "请输入OpenAI API Key",
+    "description": "API Key输入框占位符"
+  },
+  "termPlaceholder": {
+    "message": "请输入AI术语",
+    "description": "术语输入框占位符"
+  },
+  "explainButton": {
+    "message": "解释",
+    "description": "解释按钮文本"
+  },
+  "loading": {
+    "message": "正在生成解释...",
+    "description": "加载状态文本"
+  },
+  "apiKeyMissing": {
+    "message": "请输入API Key",
+    "description": "API Key缺失错误"
+  },
+  "termMissing": {
+    "message": "请输入AI术语",
+    "description": "术语缺失错误"
+  },
+  "apiError": {
+    "message": "API请求失败：$ERROR$",
+    "description": "API错误消息",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "无效的API Key"
+      }
+    }
+  },
+  "networkError": {
+    "message": "网络连接失败，请检查网络设置",
+    "description": "网络错误消息"
+  },
+  "unexpectedError": {
+    "message": "发生未知错误，请稍后重试",
+    "description": "未知错误消息"
+  },
+  "requestTimeout": {
+    "message": "请求超时，请稍后重试",
+    "description": "请求超时消息"
+  },
+  "invalidApiKey": {
+    "message": "API Key格式无效",
+    "description": "API Key格式错误消息"
+  },
+  "clearHistory": {
+    "message": "清除历史",
+    "description": "清除历史按钮文本"
+  },
+  "settings": {
+    "message": "设置",
+    "description": "设置按钮文本"
+  },
+  "about": {
+    "message": "关于",
+    "description": "关于按钮文本"
+  },
+  "explainSelection": {
+    "message": "解释选中的AI术语",
+    "description": "解释选中文本的命令描述"
+  },
+  "openFullscreen": {
+    "message": "打开全屏模式",
+    "description": "打开全屏模式的命令描述"
+  }
+} 

@@ -1,0 +1,87 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_appName__",
+  "version": "2.0.0",
+  "description": "__MSG_appDescription__",
+  "default_locale": "zh_CN",
+  
+  "permissions": [
+    "storage",
+    "activeTab",
+    "contextMenus",
+    "notifications",
+    "tabs"
+  ],
+  
+  "host_permissions": [
+    "https://api.openai.com/*",
+    "https://api.chatanywhere.tech/*",
+    "https://api.anthropic.com/*",
+    "https://*.openai.com/*",
+    "https://*.anthropic.com/*"
+  ],
+  
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "run_at": "document_end"
+  }],
+  
+  "action": {
+    "default_title": "__MSG_appName__",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  
+  "web_accessible_resources": [{
+    "resources": [
+      "fullscreen.html",
+      "fullscreen.css",
+      "fullscreen.js",
+      "images/*"
+    ],
+    "matches": ["<all_urls>"]
+  }],
+  
+  "options_ui": {
+    "page": "fullscreen.html",
+    "open_in_tab": true
+  },
+  
+  "commands": {
+    "explain-selection": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E",
+        "mac": "Command+Shift+E"
+      },
+      "description": "__MSG_explainSelection__"
+    },
+    "open-fullscreen": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+A",
+        "mac": "Command+Shift+A"
+      },
+      "description": "__MSG_openFullscreen__"
+    }
+  },
+  
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src https://api.openai.com https://api.chatanywhere.tech https://api.anthropic.com https://*.openai.com https://*.anthropic.com;"
+  }
+} 
